@@ -64,21 +64,27 @@ export const engagements: Engagement[] = [
   {
     slug: "absa",
     client: "ABSA",
-    employer: "ITC Infotech · Woolworths engagement",
+    employer: "ITC Infotech",
     facts: [
       { value: "South Africa", label: "Region" },
-      { value: "Indibano", label: "Programme" },
+      { value: "Banking", label: "Sector" },
+      { value: "Indibano & WFS", label: "Programme" },
     ],
     summary:
-      "An external-system integration touchpoint within Woolworths platform work.",
+      "Banking-system integration delivered through an IBM middleware layer.",
     context:
-      "ABSA was one of the external systems integrated as part of Woolworths' Indibano programme, delivered within the Woolworths account.",
-    role: "Project and team management, delivery assurance, onsite/offshore coordination, stakeholder communication and tracking within the broader Woolworths engagement.",
+      "ABSA bank was one of the external systems integrated in the Indibano and WFS programme, alongside RMS and IVR, as core business platforms moved to an IBM middleware stack.",
+    role: "Project and team management, onsite/offshore coordination, delivery assurance, process oversight and weekly status reporting to stakeholders.",
     activities: [
       {
         title: "Banking-system integration",
         description:
-          "Banking-system connectivity for ABSA formed part of the wider Woolworths integration landscape.",
+          "Integration flows connected ABSA bank with the programme's internal systems using IBM Integration Bus, WebSphere Message Broker and WebSphere MQ.",
+      },
+      {
+        title: "Delivery assurance",
+        description:
+          "Responsibilities included resource management for the onsite/offshore team, monitoring adherence to internal and client processes, and keeping deliverables on quality and schedule.",
       },
     ],
     technologies: [
@@ -87,8 +93,6 @@ export const engagements: Engagement[] = [
       "IBM WebSphere MQ",
       "Oracle",
     ],
-    relationshipNote:
-      "Delivered within the Woolworths engagement; this does not imply direct employment or endorsement by ABSA.",
   },
   {
     slug: "david-jones",
